@@ -1,0 +1,96 @@
+{
+    "Starters": [
+        {
+            "name": "Gỏi Xoài Xanh Cá Đét (Anogo Green Mango Salad)",
+            "price": "120.000"
+        },
+        {
+            "name": "Gỏi Bạch Tuộc Sốt Thái (Baby Octopus Salad)",
+            "price": "175.000"
+        },
+        {
+            "name": "Khoai Tây Chiên Phô Mai (Parmesan Truffle Fries)",
+            "price": "145.000"
+        },
+        {
+            "name": "Bánh Ngô Giòn (Nachos with Guacamole)",
+            "price": "115.000"
+        },
+        {
+            "name": "Salad Gà Nướng (Grilled Chicken Salad)",
+            "price": "195.000"
+        },
+        {
+            "name": "Salad Bò Nướng (Grilled Beef Salad)",
+            "price": "225.000"
+        }
+    ],
+    "Main Courses": [
+        {
+            "name": "Sườn Heo BBQ (BBQ Pork Ribs)",
+            "price": "545.000"
+        },
+        {
+            "name": "Lườn Ngỗng Xông Khói (Smoked Goose Breast)",
+            "price": "225.000"
+        },
+        {
+            "name": "Gà Nướng (East West Roasted Chicken)",
+            "price": "365.000"
+        },
+        {
+            "name": "Thăn Vai Bò Nướng (Ribeye Steak)",
+            "price": "565.000"
+        },
+        {
+            "name": "Sườn Bụng Bò (Bone-in Short Ribs)",
+            "price": "975.000"
+        },
+        {
+            "name": "Cơm Chiên Cua (Crab Fried Rice)",
+            "price": "220.000"
+        },
+        {
+            "name": "Cơm Chiên hải sản (Seafood Fried Rice)",
+            "price": "220.000"
+        },
+        {
+            "name": "Mì Ý Bò Bằm (Bolognese Pasta)",
+            "price": "220.000"
+        }
+    ],
+    "Beverages": [
+        {
+            "name": "Bia FAR EAST IPA",
+            "price": "100.000"
+        },
+        {
+            "name": "Bia EAST WEST PALE ALE",
+            "price": "120.000"
+        },
+        {
+            "name": "Bia SUMMER HEFEWEIZEN",
+            "price": "85.000"
+        },
+        {
+            "name": "Bia WIT BLANC",
+            "price": "90.000"
+        },
+        {
+            "name": "Bia SAIGON ROSE",
+            "price": "90.000"
+        },
+        {
+            "name": "Tropical Tango",
+            "price": "99.000"
+        },
+        {
+            "name": "Nước suối",
+            "price": "31.000"
+        },
+        {
+            "name": "Trà Dứa (Pineapple Tea)",
+            "price": "59.000"
+        }
+    ]
+}

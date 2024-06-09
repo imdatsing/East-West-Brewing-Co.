@@ -1,0 +1,19 @@
+{
+    "name": "East West Brewing Co.",
+    "address": {
+        "location1":"SAI GON: 181-185 Lý Tự Trọng, Quận 1, TP.HCM",
+        "location2":"DA NANG: 1A Võ Nguyên Giáp, Sơn Trà, Đà Nẵng"
+    },
+    "phone": "0913060728",
+    "website": "https://eastwestbrewing.vn/vi/east-west-brewing-vn/",
+    "opening_hours": {
+        "Monday": "11:00 - 22:00",
+        "Tuesday": "11:00 - 22:00",
+        "Wednesday": "11:00 - 22:00",
+        "Thursday": "11:00 - 22:00",
+        "Friday": "11:00 - 23:00",
+        "Saturday": "11:00 - 23:00",
+        "Sunday": "11:00 - 21:00"
+    },
+    "description": "East West Brewing Co. is one of Vietnam’s first microbreweries with award winning craft beers, birthed from a dream to provide world-class craft beer to our Vietnamese community. We never compromise taste or quality and aim to deliver bold and authentic flavors using only the freshest and finest ingredients from the East to the West. Whether it be our core or premium beers, we continue to push ourselves to create a wide variety of beers made up of both global and local ingredients. We pride ourselves on connecting cultures through craft beer and we welcome you to try out the East West experience! At East West, we provide an elevated and sophisticated take on traditional Western and Vietnamese comfort food using only the finest quality of locally sourced ingredients. We will be delivering an international dining experience bringing together flavor influences from the East to the West. With an innovative and traditional menu, an authentic and fresh handcrafted beer selection, and a unique barrel aging room overlooking the city, whether it be the bustling city center of District 1 in Ho Chi Minh City or the sensationally beach sands in Da Nang, we welcome you discover any of our signature micro-breweries and try out the East West experience!"
+}

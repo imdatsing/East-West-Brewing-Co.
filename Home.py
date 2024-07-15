@@ -44,10 +44,17 @@ def app():
             st.image("Images/3.jpg")
             
         with col1:
-            st.write("1️⃣ Model 1: Customer Traffic Prediction")
+            st.subheader("1️⃣ Model 1: Customer Traffic Prediction")
+            st.write("  -   First function: Predict the customer traffic for **:orange[the next year (2025)]** to support for sale marketing strategy.")
+            st.write("  -   Second function: Predict the customer traffic for **:orange[the next 5 days]** to support for operations as staffing and preparing cooking ingredients.")
             st.write((""))
             
-            st.write("2️⃣ Model 2: AI Chatbot")
+            st.subheader("2️⃣ Model 2: AI Chatbot")
+            st.write("  - The chatbot can **:orange[recommend dishes]** based on user preferences and dietary needs, **:orange[provide detailed menu information]** and **:orange[answer questions about the restaurant]**'s location, contact details, opening hours, etc.")
             st.write((""))
             
-            st.write("3️⃣ Model 3: Customer Feedback Analysis")
+            st.subheader("3️⃣ Model 3: Customer Feedback Analysis")
+            st.write("  - First function: Label the feedback given as: food; service; atmosphere; food/service; food/atmosphere; service/atmosphere; food/service/atmosphere.")
+            st.write("  - Second function: Sentiment the feedback given to see if their overall experience is good (positive)/ nothing much (neutral) of bad (negative).")
+            
+    st.image("Images/4.jpg")

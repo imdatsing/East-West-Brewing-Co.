@@ -1,9 +1,12 @@
 import streamlit as st
 from openai import OpenAI
 import json
+import time
 
 def app():
     st.title("Model 2: AI Chatbot")
+    
+    st.subheader("Xin chào! Tôi là **trợ lý ảo** của **East West Brewing Co** 	🤖, sẵn sàng giúp bạn với các gợi ý món ăn, thông tin về thực đơn và nhà hàng. Hãy đặt câu hỏi của bạn!	💓	💓	💓")
 
     client = OpenAI(api_key=st.secrets["OPEN_API_KEY"])
 
@@ -19,7 +22,7 @@ def app():
         st.session_state.menu = load_json('menu.json')
     if "restaurant_info" not in st.session_state:
         st.session_state.restaurant_info = load_json('restaurant_info.json')
-
+    
     # Display chat messages from history
     for message in st.session_state.messages:
         with st.chat_message(message["role"]):
@@ -36,7 +39,7 @@ def app():
         restaurant_info_context = json.dumps(st.session_state.restaurant_info, indent=2)
         system_message = {
             "role": "system",
-            "content": f"You are a helpful restaurant food recommendation bot. Here is the menu: {menu_context}. Here is the restaurant information: {restaurant_info_context}"
+            "content": f"You are a helpful restaurant food recommendation bot. You should only provide information related to the menu, food recommendations, and restaurant information. Here is the menu: {menu_context}. If the customer wants to see the menu, the menu will be displayed as a table with 6 columns: 3 columns for dishes and 3 columns for prices in VND. Here is the restaurant information: {restaurant_info_context}.  Avoid answer any questions outside these topics."
         }
 
         # Prepare the messages for the API request
@@ -52,6 +55,7 @@ def app():
                 stream=True
             )
             response = st.write_stream(stream)
+            time.sleep(2)
 
         st.session_state.messages.append({"role": "assistant", "content": response})
     
